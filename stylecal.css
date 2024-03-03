@@ -1,0 +1,90 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main{
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgba(73, 64, 64, 0.845);
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+#inputBox{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(187, 197, 197);
+    margin-left: 25px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 30px;
+    color: black;
+    border: none;
+}
+
+.digits{
+    height: 400px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.numbers{
+    display: flex;
+}
+ 
+button{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.581);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+}
+
+.operator{
+    color: orange;
+}
+
+.color:hover{
+    background-color: orange;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 413px){
+    .main {
+        height: 450px;
+        width: 250px;
+    }
+    #inputBox{
+        width: 200px;
+    }
+    .digits{
+        height: 400px;
+    }
+    button{
+        margin: 10px 0px 0px 10px;
+    }
+}
